@@ -72,7 +72,7 @@
 	}
 	.logo a
 	{
-		font-size: 28px;
+		font-size: 33px;
 	}
 	.search
 	{
@@ -146,27 +146,29 @@
 	{
 		margin-bottom: 30px;
 	}
+	.sticky-buttons {
+		position: fixed;
+		top: 25px;
+		right: 15px;
+		z-index: 1000;
+	}
+	.sticky-buttons img {
+		width: 40px;
+		height: 40px;
+	}
 	.item_1 span:first-child
 	{
-		font-size: 20px;
+		font-size: 30px;
 		margin-bottom: 15px;
 	}
 	.item_1 span:nth-child(2)
 	{
-		margin-bottom: 9px;
-	}
-	.item_1 span:nth-child(2) img
-	{
-		width: 150px;
+		font-size: 90px;
+		margin-bottom: 10px;
 	}
 	.item_1 span:nth-child(3)
 	{
-		font-size: 186px;
-		margin-bottom: 0px;
-	}
-	.item_1 span:nth-child(4)
-	{
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.hamburger_container
 	{
