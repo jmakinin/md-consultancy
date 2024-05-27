@@ -348,7 +348,7 @@ section
 .logo
 {
 	padding-left: 57px;
-	flex-basis: 50%;
+	flex-basis: 65%;
 }
 .logo a
 {
@@ -356,7 +356,6 @@ section
 	font-weight: 500;
 	color: #fefefe;
 	letter-spacing: 0.1em;
-	line-height: 128px;
 }
 .logo a span
 {
@@ -1378,7 +1377,7 @@ section
 .text_line_image
 {
 	position: absolute;
-	bottom: 49px;
+	bottom: 110px;
 	right: 0;
 }
 .text_line_image img
@@ -1483,6 +1482,7 @@ section
 {
 	padding-top: 99px;
 	padding-bottom: 82px;
+	background-color: #301b55;
 }
 .footer_logo
 {
@@ -1491,12 +1491,18 @@ section
 }
 .footer_logo a
 {
-	color: #452b78;
+	color: #FFFFFF;
 	line-height: 1;
 }
 .footer_intro p
 {
 	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+.footer_intro ul li
+{
+	margin-bottom: 0px;
+	color: #b4b4b4;
 }
 .footer_social
 {
