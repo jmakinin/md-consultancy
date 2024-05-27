@@ -360,6 +360,16 @@
 	{
 		display: none;
 	}
+	.sticky-buttons {
+		position: fixed;
+		top: 12px;
+		right: 12px;
+		z-index: 1000;
+	}
+	.sticky-buttons img {
+		width: 30px;
+		height: 30px;
+	}
 	.item_1 span:first-child
 	{
 		font-size: 16px;
@@ -475,7 +485,7 @@
 	}
 	.logo a
 	{
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.button
 	{
